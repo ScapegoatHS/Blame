@@ -1,0 +1,19 @@
+.{
+    .name = .blame,
+    .version = "0.0.0",
+    .dependencies = .{
+        .zigwin32 = .{
+            .url = "git+https://github.com/kcbanner/zigwin32#d53efcf7e94b130fb0e84979aef6e5193ed377f7",
+            .hash = "zigwin32-25.0.28-preview-AAAAAGeI5ANWTScxLlUycxTkQN25FlWjLnrYPNBjImlH",
+        },
+        .minhook = .{
+            .url = "git+https://github.com/ScapegoatHS/minhook-zig#b558d4e7021fba0e87008ab50927455f2ecdd8f8",
+            .hash = "minhook-0.1.0-SLhoAxtHAAAVqUbG6KPQWPGA5sFaSCIO4VV226UkVwJI",
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
