@@ -4,7 +4,11 @@ const win32 = @import("win32").everything;
 
 const memory = @import("memory.zig");
 
-pub fn HookSingleton(comptime log_scope: @Type(.enum_literal), comptime function_ref: memory.Function, comptime detour_function: anytype) type {
+pub fn HookSingleton(
+    comptime log_scope: @Type(.enum_literal),
+    comptime function_ref: memory.Function,
+    comptime detour_function: anytype,
+) type {
     return struct {
         pub const scope = log_scope;
         pub const log = std.log.scoped(log_scope);

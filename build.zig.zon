@@ -7,8 +7,8 @@
             .hash = "zigwin32-25.0.28-preview-AAAAAGeI5ANWTScxLlUycxTkQN25FlWjLnrYPNBjImlH",
         },
         .minhook = .{
-            .url = "git+https://github.com/ScapegoatHS/minhook-zig#b558d4e7021fba0e87008ab50927455f2ecdd8f8",
-            .hash = "minhook-0.1.0-SLhoAxtHAAAVqUbG6KPQWPGA5sFaSCIO4VV226UkVwJI",
+            .url = "git+https://github.com/ScapegoatHS/minhook-zig#f5d7164c9931b122da4af44e61e9783fe8ba09d9",
+            .hash = "minhook-0.1.0-SLhoA2lHAAAYsR-f9ScFMlqsNAgi5DtCjsJCnCjF2KWO",
         },
     },
     .paths = .{
